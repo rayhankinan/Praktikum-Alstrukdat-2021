@@ -1,0 +1,13 @@
+{
+    "code-runner.executorMap": {
+        "c": "cd $dir && gcc -o $fileNameWithoutExt *.c && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ -o $fileNameWithoutExt *.cpp && $dir$fileNameWithoutExt"
+    },
+    "files.associations": {
+        "stdlib.h": "c",
+        "wordmachine.h": "c",
+        "queue.h": "c",
+        "stack_linked.h": "c"
+    }
+    
+}
